@@ -3,7 +3,7 @@ Slim Object Hash
 
 Generates hashes from objects
 
-Slim than `object-hash`
+Smaller than `object-hash`
 34.7 KB vs 769 B
 
 Faster than `object-hash`
@@ -15,9 +15,9 @@ Faster than `object-hash`
 
 ## Usage
 
-    import slimObjectHash from 'slim-object-hash'
+  import slimObjectHash from 'slim-object-hash'
 
-    const objHash = slimObjectHash({ a: 'a', b: 'b', c: 'c' })
+  const objHash = slimObjectHash({ a: 'a', b: 'b', c: 'c' })
 	const objHash2 = slimObjectHash({ c: 'c', b: 'b', a: 'a' })
 	
 	console.log(objHash) // 2061408781
