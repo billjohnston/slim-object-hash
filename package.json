@@ -1,0 +1,23 @@
+{
+  "name": "slim-object-hash",
+  "version": "0.1.0",
+  "description": "Generates hashes from objects",
+  "main": "dist/slimObjectHash.js",
+  "author": "Bill Johnston",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billjohnston/slim-object-hash.git"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/uglifyjs --compress --mangle --output ./dist/slimObjectHash.js -- ./src/slimObjectHash.js",
+    "test": "./node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "uglify-js": "^3.6.0"
+  },
+  "dependencies": {}
+}
