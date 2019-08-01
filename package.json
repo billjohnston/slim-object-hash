@@ -1,6 +1,6 @@
 {
   "name": "slim-object-hash",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generates hashes from objects",
   "main": "dist/slimObjectHash.js",
   "author": "Bill Johnston",
