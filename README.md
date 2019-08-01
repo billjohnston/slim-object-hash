@@ -15,13 +15,13 @@ Faster than `object-hash`
 
 ## Usage
 
-  import slimObjectHash from 'slim-object-hash'
+    import slimObjectHash from 'slim-object-hash'
 
-  const objHash = slimObjectHash({ a: 'a', b: 'b', c: 'c' })
-	const objHash2 = slimObjectHash({ c: 'c', b: 'b', a: 'a' })
-	
-	console.log(objHash) // 2061408781
-	console.log(objHash === objHash2) // true
+    const objHash = slimObjectHash({ a: 'a', b: 'b', c: 'c' })
+    const objHash2 = slimObjectHash({ c: 'c', b: 'b', a: 'a' })
+
+    console.log(objHash) // 2061408781
+    console.log(objHash === objHash2) // true
   
 
 ## Tests

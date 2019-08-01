@@ -6,6 +6,11 @@
   "author": "Bill Johnston",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "object",
+    "hash",
+    "slim",
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/billjohnston/slim-object-hash.git"
